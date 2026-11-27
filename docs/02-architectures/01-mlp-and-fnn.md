@@ -29,7 +29,7 @@ $$
 
 * $W^{(l)}$：当前层的权重矩阵；
 * $b^{(l)}$：偏置向量；
-* $\sigma$：非线性激活函数（如 `ReLU`、`GELU`、`Sigmoid`）。
+* $\sigma$：非线性激活函数（如 `ReLU`、`GELU`、`Sigmoid`，详见 [激活函数介绍](../01-fundamentals/03-activation-functions.md)）。
 
 训练过程遵循标准的神经网络训练流程：**前向传播 → 计算损失 → 反向传播 → 梯度下降更新参数**。
 
@@ -103,6 +103,7 @@ $$
 * **理论关联**：
   * [神经网络介绍](../01-fundamentals/01-neural-network.md)
   * [万能近似定理介绍](../01-fundamentals/02-universal-approximation-theorem.md)
+  * [激活函数（Activation Functions）介绍](../01-fundamentals/03-activation-functions.md)
   * [卷积神经网络（CNN）介绍](./02-cnn.md)
 * **代码示例**：
   * [MLP 房价预测 Demo](../../demos/mlp/house_price_prediction.py)（在仓库根目录运行 `python demos/mlp/house_price_prediction.py`）

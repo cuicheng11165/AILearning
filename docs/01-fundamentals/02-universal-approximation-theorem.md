@@ -16,7 +16,7 @@ $$
 
 对所有 $x \in K$ 都满足 $|F(x) - f(x)| < \varepsilon$。
 
-* **对激活函数 $\sigma$ 的要求**：不能是多项式函数（否则有限个神经元只能表达固定次数的多项式）。常见的 `Sigmoid`、`Tanh`、`ReLU`、`GELU` 都满足条件。
+* **对激活函数 $\sigma$ 的要求**：不能是多项式函数（否则有限个神经元只能表达固定次数的多项式）。常见的 `Sigmoid`、`Tanh`、`ReLU`、`GELU` 都满足条件（详见 [激活函数介绍](./03-activation-functions.md)）。
 
 ---
 
@@ -47,5 +47,6 @@ $$
 ## 相关阅读
 
 * [神经网络介绍](./01-neural-network.md)
+* [激活函数（Activation Functions）介绍](./03-activation-functions.md)
 * [前馈神经网络（MLP / FNN）介绍](../02-architectures/01-mlp-and-fnn.md)
 * [卷积神经网络（CNN）介绍](../02-architectures/02-cnn.md)

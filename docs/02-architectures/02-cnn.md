@@ -46,7 +46,7 @@ $$
 
 ### 2.2 激活层（Activation Layer）
 
-紧跟在卷积层之后，最常用 `ReLU`（以及 `LeakyReLU`、`GELU`、`SiLU` 等），用于引入**非线性**。如果没有非线性激活，多层卷积叠加在数学上仍等价于单层线性变换。
+紧跟在卷积层之后，最常用 `ReLU`（以及 `LeakyReLU`、`GELU`、`SiLU` 等），用于引入**非线性**（详见 [激活函数介绍](../01-fundamentals/03-activation-functions.md)）。如果没有非线性激活，多层卷积叠加在数学上仍等价于单层线性变换。
 
 ### 2.3 池化层（Pooling Layer）
 
@@ -119,4 +119,5 @@ $$
 
 * [神经网络介绍](../01-fundamentals/01-neural-network.md)
 * [万能近似定理介绍](../01-fundamentals/02-universal-approximation-theorem.md)
+* [激活函数（Activation Functions）介绍](../01-fundamentals/03-activation-functions.md)
 * [前馈神经网络（MLP / FNN）介绍](./01-mlp-and-fnn.md)

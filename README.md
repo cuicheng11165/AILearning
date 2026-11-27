@@ -10,10 +10,14 @@ AILearning/
 ├── docs/                                              # 理论与概念笔记
 │   ├── 01-fundamentals/                               # 神经网络基础与核心理论
 │   │   ├── 01-neural-network.md                       # 神经网络介绍
-│   │   └── 02-universal-approximation-theorem.md      # 万能近似定理介绍
-│   └── 02-architectures/                              # 经典网络架构
-│       ├── 01-mlp-and-fnn.md                          # 前馈神经网络（MLP / FNN）介绍
-│       └── 02-cnn.md                                  # 卷积神经网络（CNN）介绍
+│   │   ├── 02-universal-approximation-theorem.md      # 万能近似定理介绍
+│   │   └── 03-activation-functions.md                 # 激活函数（ReLU / Sigmoid / GELU 等）介绍
+│   ├── 02-architectures/                              # 经典网络架构
+│   │   ├── 01-mlp-and-fnn.md                          # 前馈神经网络（MLP / FNN）介绍
+│   │   └── 02-cnn.md                                  # 卷积神经网络（CNN）介绍
+│   └── assets/                                        # 文档配图与示意图（SVG）
+│       ├── activation-functions.svg                   # Sigmoid / ReLU / GELU 函数与导数对比图
+│       └── activation-functions-more.svg              # 其他常见激活函数（Tanh / SiLU / Mish 等）对比图
 └── demos/                                             # 可运行代码示例（按主题分类）
     └── mlp/
         └── house_price_prediction.py                  # MLP 房价预测（纯 Python 零依赖 Demo）
@@ -27,6 +31,7 @@ AILearning/
 
 1. [神经网络介绍](./docs/01-fundamentals/01-neural-network.md) — 神经元结构、前向/反向传播、常见架构总览与优缺点。
 2. [万能近似定理介绍](./docs/01-fundamentals/02-universal-approximation-theorem.md) — 为什么 MLP 理论上能逼近任意连续函数，以及为什么仍需要“深度”学习。
+3. [激活函数（Activation Functions）介绍](./docs/01-fundamentals/03-activation-functions.md) — `Sigmoid`、`ReLU`、`GELU` 及常见变体的原理、对比与工程选型。
 
 ### 02. 经典网络架构（Architectures）
 

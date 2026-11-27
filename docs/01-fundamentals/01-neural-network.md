@@ -21,7 +21,7 @@ y = \sigma\left(\sum_{i=1}^{n} w_i x_i + b\right)
 $$
 
 * **权重（Weight）与偏置（Bias）**：网络需要学习的“参数”，决定了不同输入的重要性。
-* **激活函数（Activation Function）**：如 `ReLU`、`Sigmoid`、`GELU` 等，用于引入**非线性**，使网络能够拟合复杂的非线性关系（否则多层线性叠加仍等价于单层线性模型）。
+* **激活函数（Activation Function）**：如 `ReLU`、`Sigmoid`、`GELU` 等，用于引入**非线性**，使网络能够拟合复杂的非线性关系（否则多层线性叠加仍等价于单层线性模型，详见 [激活函数介绍](./03-activation-functions.md)）。
 
 ---
 
@@ -65,5 +65,6 @@ $$
 ## 相关阅读
 
 * [万能近似定理介绍](./02-universal-approximation-theorem.md)
+* [激活函数（Activation Functions）介绍](./03-activation-functions.md)
 * [前馈神经网络（MLP / FNN）介绍](../02-architectures/01-mlp-and-fnn.md)
 * [卷积神经网络（CNN）介绍](../02-architectures/02-cnn.md)
